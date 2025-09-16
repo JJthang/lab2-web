@@ -1,0 +1,70 @@
+@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Create Student";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+
+<a asp-action="Create" class="btn btn-primary">Create Student</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Mã</td>
+            <td>Họ tên</td>
+            <td>Avatar</td>
+            <td>Ngày sinh</td>
+            <td>Ngành</td>
+            <td>Giới tính</td>
+            <td>Hệ ĐT</td>
+            <td>Địa chỉ</td>
+            <td>Email</td>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    <tr>
+     @foreach (Student s in Model)
+    {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Name</td>
+             <td>
+                            @if (!string.IsNullOrEmpty(s.Avatar))
+                            {
+                                <img src="@s.Avatar" alt="Avatar" class="img-thumbnail" style="width: 60px; height: 60px; object-fit: cover;">
+                            }
+                            else
+                            {
+                                <div class="bg-secondary d-flex align-items-center justify-content-center text-white" style="width: 60px; height: 60px;">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            }
+                        </td>
+                <td>@string.Format("{0:dd-MM-yyyy}", s.DateOfBirth)</td>
+                @{
+                        string str = "";
+                        switch (s.Branch)
+                        {
+                                case Branch.IT:
+                                        str = "CNTT";
+                                        break;
+                                case Branch.BE:
+                                        str = "Kinh tế";
+                                        break;
+                                case Branch.CE:
+                                        str = "Công trình";
+                                        break;
+                                case Branch.EE:
+                                        str = "Điện - Điện tử";
+                                        break;
+                        }
+                }
+                <td>@str</td>
+                <td>@(s.Gender == Gender.Male ? "Nam" : "Nữ")</td>
+                <td>@(s.IsRegular ? "Chính quy" : "Phi chính quy")</td>
+                <td>@s.Address</td>
+                <td>@s.Email</td>
+            </tr>
+    }
+        </tbody>
+</table>

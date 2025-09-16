@@ -1,0 +1,135 @@
+@model Student
+@{
+    ViewData["Title"] = "Create Student";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+<div class="container mt-3">
+    <form asp-controller="Student" asp-action="Create" method="post" enctype="multipart/form-data" class="mt-3">
+        <!-- Họ tên -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" placeholder="Họ tên" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Password" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Ảnh đại diện -->
+        <div class="form-group row" style="margin-top:7px">
+            <label class="col-sm-2 col-form-label">Ảnh đại diện</label>
+            <div class="col-sm-10">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="avatarFile" name="avatarFile"
+                        accept=".jpg,.jpeg,.png,.gif" onchange="previewImage(this)">
+                    <label class="custom-file-label" for="avatarFile">Chọn ảnh...</label>
+                </div>
+                <small class="form-text text-muted">Chấp nhận file: .jpg, .jpeg, .png, .gif. Tối đa 5MB.</small>
+                <div class="mt-2">
+                    <img id="imagePreview" src="#" alt="Preview"
+                        style="max-width: 200px; max-height: 200px; display: none;" class="img-thumbnail">
+                </div>
+                @if (ViewData.ModelState["Avatar"] != null)
+                {
+                    <span class="text-danger">@ViewData.ModelState["Avatar"].Errors.FirstOrDefault()?.ErrorMessage</span>
+                }
+            </div>
+        </div>
+
+        <!-- Ngành học (Branch) -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Branch" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <select asp-for="Branch" class="custom-select mr-sm-2" asp-items="Html.GetEnumSelectList<Branch>()">
+                </select>
+                <span asp-validation-for="Branch" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Sinh viên chính quy -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="IsRegular" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="IsRegular" type="checkbox" class="form-check-input" />
+            </div>
+        </div>
+
+        <!-- Ngày sinh -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="DateOfBirth" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="DateOfBirth" type="date" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Giới tính -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Gender" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                @foreach (var gender in ViewBag.AllGenders)
+                {
+                    <label class="radio-inline mr-3">
+                        <input type="radio" asp-for="Gender" value="@gender" id="Gender@(gender)" />
+                        @(gender == Gender.Male ? "Nam" : "Nữ")
+                    </label>
+                }
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Địa chỉ -->
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Address" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <textarea asp-for="Address" class="form-control" placeholder="Địa chỉ"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Nút submit -->
+        <div class="form-group row" style="margin-top:10px">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a href="@Url.Action("List")" class="btn btn-secondary">Hủy</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Hiển thị tên file đã chọn
+    $('.custom-file-input').on('change', function () {
+        let fileName = $(this).val().split('\\').pop();
+        $(this).siblings('.custom-file-label').addClass('selected').html(fileName);
+    });
+
+    // Preview ảnh trước khi upload
+    function previewImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#imagePreview').attr('src', e.target.result).show();
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

@@ -1,0 +1,20 @@
+@model IEnumerable<MenuItem>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <h4><i class="fas fa-arrow-left me-2"></i>Management System</h4>
+    </div>
+    <ul class="sidebar-menu">
+        @* <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fas fa-users"></i>Users</a></li>
+        <li><a href="#"><i class="fas fa-code-branch"></i>Branches</a></li>
+        <li><a href="#"><i class="fas fa-user-graduate"></i>Students</a></li>
+        <li><a href="#"><i class="fas fa-book"></i>Subjects</a></li>
+        <li><a href="#"><i class="fas fa-graduation-cap"></i>Courses</a></li> *@
+        @foreach (var i in Model)
+        {
+            <li><a href="#"><i class="fas fa-book"></i>@i.Name</a></li>
+        }
+    </ul>
+</div>

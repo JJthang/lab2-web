@@ -1,0 +1,13 @@
+@model IEnumerable<MenuItem>
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <h4><i class="fas fa-arrow-left me-2"></i>Management System</h4>
+    </div>
+    <ul class="sidebar-menu">
+        @foreach (var i in Model)
+        {
+            <li><a href="#"><i class="fas fa-book"></i>@i.Name</a></li>
+        }
+    </ul>
+</div>
