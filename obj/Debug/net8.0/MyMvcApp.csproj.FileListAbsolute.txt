@@ -2,8 +2,6 @@
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/appsettings.json
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.staticwebassets.runtime.json
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp
-/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.deps.json
-/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.runtimeconfig.json
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.pdb
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -26,9 +24,10 @@
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/refint/MyMvcApp.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.pdb
-/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.genruntimeconfig.cache
-/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/ref/MyMvcApp.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.csproj.AssemblyReference.cache
+/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.sourcelink.json
+/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.deps.json
+/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/MyMvcApp.runtimeconfig.json
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/Azure.Core.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/Azure.Identity.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/Humanizer.dll
@@ -166,4 +165,5 @@
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.csproj.Up2Date
-/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.sourcelink.json
+/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/MyMvcApp.genruntimeconfig.cache
+/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/obj/Debug/net8.0/ref/MyMvcApp.dll

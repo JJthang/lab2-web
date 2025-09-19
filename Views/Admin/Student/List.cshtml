@@ -18,6 +18,7 @@
             <td>Giới tính</td>
             <td>Hệ ĐT</td>
             <td>Địa chỉ</td>
+            <td>Điểm</td>
             <td>Email</td>
         </tr>
     </thead>
@@ -63,6 +64,7 @@
                 <td>@(s.Gender == Gender.Male ? "Nam" : "Nữ")</td>
                 <td>@(s.IsRegular ? "Chính quy" : "Phi chính quy")</td>
                 <td>@s.Address</td>
+                <td>@s.Score</td>
                 <td>@s.Email</td>
             </tr>
     }
