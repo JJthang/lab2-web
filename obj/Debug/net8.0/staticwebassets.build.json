@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sdtEyKdrtV5yF8dFkAZwAw54DMTO13aDWCmIaOkYUVA=",
+  "Hash": "/TFCgQNtT1SULhnli5B4FLDtDwE7+A/5UYBAB7/nxOs=",
   "Source": "MyMvcApp",
   "BasePath": "_content/MyMvcApp",
   "Mode": "Default",
@@ -1404,6 +1404,25 @@
       "OriginalItemSpec": "wwwroot/uploads/ac1f964d-ad89-4fb7-9a4f-2d8ca7cc1e1f.png"
     },
     {
+      "Identity": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/uploads/bcd8d958-3790-4168-8ae9-b983cb5c4bd6.png",
+      "SourceId": "MyMvcApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/",
+      "BasePath": "_content/MyMvcApp",
+      "RelativePath": "uploads/bcd8d958-3790-4168-8ae9-b983cb5c4bd6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/bcd8d958-3790-4168-8ae9-b983cb5c4bd6.png"
+    },
+    {
       "Identity": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/uploads/d895beed-ba7f-45b6-88a1-0bc1f2920c10.png",
       "SourceId": "MyMvcApp",
       "SourceType": "Discovered",
@@ -1421,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/d895beed-ba7f-45b6-88a1-0bc1f2920c10.png"
+    },
+    {
+      "Identity": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/uploads/da8b1d21-e57f-4d1e-b215-b1ed1045b82c.png",
+      "SourceId": "MyMvcApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/",
+      "BasePath": "_content/MyMvcApp",
+      "RelativePath": "uploads/da8b1d21-e57f-4d1e-b215-b1ed1045b82c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/da8b1d21-e57f-4d1e-b215-b1ed1045b82c.png"
     },
     {
       "Identity": "/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/wwwroot/uploads/f1e9b170-f0c4-4add-b940-2fee03cfabf6.png",

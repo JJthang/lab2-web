@@ -17,63 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyMvcApp
 build_property.RootNamespace = MyMvcApp
-build_property.ProjectDir = /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/
+build_property.ProjectDir = /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp
+build_property.MSBuildProjectDirectory = /Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp
 build_property._RazorSourceGeneratorDebug = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Admin/Student/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3R1ZGVudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = Q3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Admin/Student/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3R1ZGVudC9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Components/Render/LeftMenu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcG9uZW50cy9SZW5kZXIvTGVmdE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = TGVmdE1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = UHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = RXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/LeftMenu.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xlZnRNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = TGVmdE1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/MyLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL015TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = TXlMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/TopNav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1RvcE5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = VG9wTmF2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = X1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/phamthang/Documents/Trường UTC/Môn WEB/setup sql server/First project/MyMvcApp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = X0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-xlfqnswz7s
